@@ -28,7 +28,7 @@ Make sure your system meets these requirements:
 | Docker | Redis Enterprise Software Docker images are certified for Development and Testing only. |
 | Kubernetes, Pivotal Platform (PCF) and other orchestration and cloud environments | See the [Platform documentation]({{< relref "/platforms" >}}) |
 
-## VMWare
+## VMware
 
 Redis Enterprise is compatible with VMware.
 
@@ -39,8 +39,8 @@ You also need to ensure that each Redis Enterprise shard is pinned to a specific
 
 If you must manually migrate a virtual machine to another host, please ensure that you follow the best practices for shard maintenance, and contact support if you have questions.
 
-## VMWare Limitations
+## VMware Limitations
 
-Please note that Redis Enterprise is not compatible with VMWare VMotion at this time. To use Redis Enterprise on VMWare, you must disable VMotion.
+Please note that Redis Enterprise is not compatible with VMware VMotion at this time. To use Redis Enterprise on VMware, you must disable VMotion.
 
-In addition, VMWare snapshotting is unsupported. Redis Enterprise cluster manages state dynamically. We don't support VMware snapshotting because a VM restored from a snapshot might not have the correct node and cluster state.
+In addition, VMware snapshotting is unsupported. Redis Enterprise cluster manages state dynamically. We don't support VMware snapshotting because a VM restored from a snapshot might not have the correct node and cluster state.
